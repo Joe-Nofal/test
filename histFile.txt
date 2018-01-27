@@ -1,0 +1,107 @@
+    1  ls
+    2  git checkout 1.01_hello_world 
+    3  git status
+    4  git status
+    5  git diff 1.06_attach_adapter 1.03_update_fragment_layout 
+    6  git diff 1.06_attach_adapter 2.01_add_network_code
+    7  git diff 1.06_attach_adapter  origin/2.01_add_network_code 
+    8  ./sldIM.exe 
+    9  sudo ./sldIM.exe 
+   10  git init
+   11  ls
+   12  ls -a
+   13  git init
+   14  git status
+   15  git add *.c *.h
+   16  git status
+   17  git commit -m "init commit"
+   18  git log
+   19  git remote -v
+   20  ls ~/.ssh
+   21  man ssh-keygen
+   22  help ssh-keygen
+   23  ssh-keygen help
+   24  ssh-keygen -t rsa -b 4096 -C "joe.nofal@gmail.com"
+   25  ls ~/.ssh
+   26  cat ~/.ssh
+   27  cat ~/.ssh/id_rsa.pub 
+   28  git remote -v 
+   29  git remote add github git@github.com:Joe-Nofal/test.git 
+   30  git remote -v 
+   31  git branch
+   32  git checkout -b dev
+   33  git log
+   34  git log -a
+   35  git status 
+   36  git checkout master
+   37  git checkout dev
+   38  git status 
+   39  git reset dev
+   40  git status 
+   41  git reset --hard dev
+   42  git checkout master
+   43  git status 
+   44  git status 
+   45  git checkout dev
+   46  git status
+   47  git add Dio.c
+   48  git status
+   49  git add Dio.h
+   50  git status
+   51  git commit -m "removed dio filles"
+   52  git log
+   53  git checkout master
+   54  git checkout dev
+   55  ls -a
+   56  ls .git/
+   57  ls .git/objects/
+   58  ls .git/objects/01/
+   59  ls .git/refs/
+   60  ls .git/refs/heads/
+   61  ls .git/refs/heads/master 
+   62  git checkout HEAD^1
+   63  git checkout dev
+   64  git checkout master
+   65  git push github master
+   66  cat ~/.ssh/id_rsa.pub 
+   67  git remote -v
+   68  git push github master
+   69  eval $(ssh-agent -s)
+   70  ssh-add ~/.ssh/id_rsa
+   71  git push github master
+   72  exit
+   73  git push github master
+   74  clip < ~/.ssh/id_rsa.pub 
+   75  git push github master
+   76  git remote -v
+   77  git push github master
+   78  ssh -T git@github.com
+   79  git push -u github master
+   80  git remote add origin git@github.com:Joe-Nofal/test.git
+   81  git push origin master
+   82  git push github master
+   83  git remote -v
+   84  git remote remove github
+   85  git remote -v
+   86  git checkout dev
+   87  git push origin dev
+   88  git branch
+   89  vim Lcd.c
+   90  git status
+   91  git diff lcd.c
+   92  git diff Lcd.c
+   93  git checkout dev 
+   94  git status
+   95  git checkout Lcd.c
+   96  git status
+   97  git checkout master
+   98  git merge dev
+   99  git log
+  100  git pull master
+  101  git pull origin master
+  102  git reset HEAD^1
+  103  git status
+  104  git log
+  105  git reset --hard HEAD
+  106  history
+  107  history > histFile.txt
